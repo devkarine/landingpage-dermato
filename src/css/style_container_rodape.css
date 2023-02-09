@@ -1,0 +1,76 @@
+.container_rodape{
+    background-color:  #644B2C;
+    height: 480px;
+}
+.text_title{
+    color: #FFFFFF;
+  
+}
+.dermato{
+    font-size: 30px;
+    line-height:24px;
+}
+.contato , .informacao{
+    font-size: 23px;
+    line-height: 32px;
+
+
+}
+.container_text_rodape{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+
+}
+.padrao{
+    font-Size:20px;
+Line-height:26px;
+color: #FFFFFF;
+}
+.numero{
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+.contato_email{
+    margin-bottom: 12px;
+    border-bottom: solid 0.5px #ffff;
+    padding-bottom: 10px;
+  
+}
+.rua{
+   
+    margin-bottom: 12px;
+} 
+.estado{
+    border-bottom: solid 0.5px #ffff;
+    padding-bottom: 10px;
+
+}  
+.informacao_text_descricao{
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 26px ;
+}
+.one_text{
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+.thow_text{
+    margin-bottom: 12px;
+
+}
+.img_rede_sociais{
+    margin-top:16px ;
+}
+.face{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.copy{
+    color: #FFFFFF;
+    margin-top: 70px;
+    font-size: 20px;
+    line-height:26px;
+    margin-left: 220px;
+    
+}

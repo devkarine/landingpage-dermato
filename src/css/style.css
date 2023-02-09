@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  min-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header{
+  min-width: 1440px;
+  width: 100%;
+  font-size: 2.4rem;
+  background-color: var(--bc-01);
+  color: var(--bc5-e-nav-size);
+  font-weight: 700;
+  height: 8rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header .nav ul{
+  display: flex;
+  gap: 3rem;
+}
+
+.header .nav ul a:hover{
+  color: var(--title-button);
+}
+
+.hero .container{
+  display: flex;
+  
+  align-items: center;
+  padding-left: 14rem;
+
+}
+
+.hero{
+  background-color: var(--bc-01);
+  
+}
+
+.hero .container .agendamento h1{
+  width: 51.6rem;
+  color: var(--title-button);
+  font-size: 4.8rem;
+  line-height: 6.24rem;
+  padding-bottom: 2rem;
+}
+
+.hero .container .agendamento p{
+  width: 53.7rem;
+  color: var(--services-size);
+  font-size: 2rem;
+  line-height: 2.6rem;
+  padding-bottom: 2rem;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26.3rem;
+  height: 6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: var(--title-button);
+  color: var(--light);
+  border-radius: 0.5rem;
+}
+
+.btn:hover{
+  color: var(--very-dark);
+  background-color: var(--light);
+}
+
+.hero .container .destaque-hero{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.estatisticas .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(var(--bc-01) 50%, var(--bc-02) 50%);
+}
+
+.estatisticas .container .card-estatisticas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light);
+  width: 116.2rem;
+  height: 20.6rem;
+
+
+}
+
+.estatisticas .container .card-estatisticas ul{
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+
+}
+
+.estatisticas .container .card-estatisticas ul li{
+  
+  color: var(--estatistic-size);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 5.2rem;
+}
+
+.estatisticas .container .card-estatisticas ul li span{
+  font-size: 2rem;
+  color: var(--services-size);
+}
+
+.info-services .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bc-02);
+  flex-direction: column;
+  padding-bottom: 10.7rem;
+}
+
+.info-services .container h2{
+  font-size: 3.6rem;
+  color: var(--title-button);
+  padding: 8rem 0 6rem 0;
+}
+
+.info-services .container .services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  flex-wrap: wrap;
+}
+
+.info-services .container .services .card-services{
+  width: 34.7rem;
+  height: 18rem;
+  background-color: var(--light);
+  display: flex;
+}
+.info-services .container .services .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bc-circle);
+  width: 17rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+.info-services .container .services .title img{
+  width: 5rem;
+  
+}
+
+.info-services .container .services .description-services h3{
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2rem 6rem 1rem 0;
+  
+}
+
+.info-services .container .services .description-services .title-color{
+  color: var(--title-button);
+}
+
+.info-services .container .services .description-services p{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.6rem;
+  color: var(--services-size);
+  padding: 1rem 2rem 1rem 0;
+
+}
+
+
+

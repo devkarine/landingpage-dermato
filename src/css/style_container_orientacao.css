@@ -1,0 +1,85 @@
+.container__geral_orientacao{
+    background: #fff;
+    height: 684px;
+    display: flex;
+}
+.container_orientacao{
+    margin-left: 160px;
+    margin-top: 105px;
+
+}
+.container_como_se_preparar{
+ 
+    margin-bottom: 20px;
+    width: 600px;
+    border: solid 1px #B2B2B2;
+}
+.title_informativo{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+margin-right: 20px;
+}
+.descricao_anotacao{
+color: #404040;
+font-size: 18px;
+line-height: 23.4px;
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.seta_acima{
+    margin-left: 530px;
+    margin-top: 20px;
+
+}
+.container_com_qual_frequencia{
+    padding-top: 10px;
+    padding-bottom:10px;
+    display: flex;
+    border: solid 1px #B2B2B2;
+    margin-bottom: 20px;
+}
+.container_preciso_encaminhamento{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border: solid 1px #B2B2B2;
+    margin-bottom: 20px;
+}
+.container_oque_dermatologista{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border: solid 1px #B2B2B2;
+    margin-bottom: 20px;
+}
+.container_analise_pele{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border: solid 1px #B2B2B2;
+    margin-bottom: 20px;
+}
+.imagem_seta_baixo{
+    width: 24px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+.config_1{
+    margin-left: 70px;
+}
+.config_2{
+    margin-left: 26px;
+}
+.config_3{
+    margin-left: 60px;
+}
+.imagem_coco{
+    margin-left: 80px;
+    margin-top: 132px;
+    margin-bottom: 50px;
+    box-shadow:50px 0px #FFCCD1;
+}
