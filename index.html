@@ -12,6 +12,19 @@
     <link rel="stylesheet" href="src/css/style_container_orientacao.css">
     <link rel="stylesheet" href="src/css/style_container_clientes.css">
     <link rel="stylesheet" href="src/css/style_container_rodape.css">
+    <link rel="stylesheet" href="src/css/sessao_banner_responsivo.css">
+    <script type="text/javascript">
+       window.onload = function (){
+          document.querySelector(".menuMobile").addEventListener("click", function(){
+             if(document.querySelector(".nav nav ul ").style.display == 'flex'){
+                 document.querySelector(".nav nav ul  ").style.display == 'none'
+             } else {
+              document.querySelector(".nav nav ul").style.display == 'flex'
+               
+             }
+          })
+       }
+    </script>
  
 
     <title>Landing Page Dermato</title>
@@ -23,6 +36,11 @@
       </div>
 
       <nav class="nav">
+        
+
+
+
+        </div>
         <ul>
           <li><a href="#inicio">Início</a></li>
           <li><a href="#servicos">Serviços</a></li>
@@ -35,9 +53,9 @@
       <section class="hero">
         <div class="container">
           <div class="agendamento">
-            <h1>A sua beleza é única, 
+            <h1 class="texto">A sua beleza é única, 
               o tratamento também</h1>
-            <p>A padronização de tratamentos estéticos gera resultados artificiais. Por isso analisamos sua pele e realizamos apenas procedimentos personalizados para você.</p>
+            <p class="texto">A padronização de tratamentos estéticos gera resultados artificiais. Por isso analisamos sua pele e realizamos apenas procedimentos personalizados para você.</p>
 
             <button class="btn">
               Agendar Consulta
@@ -45,7 +63,7 @@
           </div>
 
           <div class="destaque-hero">
-            <img src="src/images/destaque-hero.png" alt="Foto de uma mulher">
+            <img id="banner" src="src/images/destaque-hero.png" alt="Foto de uma mulher">
           </div>
         </div>
       </section>
@@ -53,10 +71,10 @@
       <section class="estatisticas">
         <div class="container">
           <div class="card-estatisticas">
-            <ul>
-              <li>+3.000 <span>Clientes satisfeitas</span></li>
-              <li>+15 <span>Anos de experiências</span></li>
-              <li>+10 <span>Filiais</span></li>
+            <ul class="name_card" >
+              <li class="name_card_1">+3.000 <span>Clientes satisfeitas</span></li>
+              <li class="name_card_1">+15 <span>Anos de experiências</span></li>
+              <li class="name_card_1">+10 <span>Filiais</span></li>
             </ul>
           </div>
         </div>

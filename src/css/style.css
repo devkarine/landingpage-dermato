@@ -11,7 +11,7 @@ body {
 }
 
 .header{
-  min-width: 1440px;
+  max-width: 1440px;
   width: 100%;
   font-size: 2.4rem;
   background-color: var(--bc-01);
@@ -24,6 +24,8 @@ body {
   justify-content: space-between;
 
 }
+
+
 
 .header .nav ul{
   display: flex;
@@ -48,7 +50,7 @@ body {
 }
 
 .hero .container .agendamento h1{
-  width: 51.6rem;
+  width: 517px;
   color: var(--title-button);
   font-size: 4.8rem;
   line-height: 6.24rem;
@@ -56,12 +58,13 @@ body {
 }
 
 .hero .container .agendamento p{
-  width: 53.7rem;
+  width: 537px;
   color: var(--services-size);
   font-size: 2rem;
   line-height: 2.6rem;
   padding-bottom: 2rem;
 }
+
 
 .btn{
   display: flex;
@@ -127,6 +130,8 @@ body {
   font-size: 2rem;
   color: var(--services-size);
 }
+
+
 
 .info-services .container{
   display: flex;
