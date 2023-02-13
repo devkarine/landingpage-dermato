@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* @media screen and (max-width: 430px) {
   .hero .container .agendamento {
     min-width: 430px;
@@ -54,19 +55,96 @@
   }
 
   .estatisticas .container .card-estatisticas {
+=======
+@media screen and (max-width:430px) and (max-width:450px){
+  .hero .container .agendamento{
+    min-width: 430px ;
+    margin-right: 120px;
+    padding-top: 28px;
+  
+
+}
+h1{
+width: 200px;
+}
+.hero .container .agendamento h1{
+   max-width: 300px;
+   margin-left: 30px;
+  
+
+    color: var(--title-button);
+    font-size:24px;
+    line-height: 31px;
+  
+  }
+  .hero .container .agendamento p{
+    max-width:300px ;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: var(--services-size);
+    font-size: 2rem;
+    line-height: 23px;
+    margin-left: 30px;
+   
+  
+  }
+  .btn{
+    width: 200px;
+     font-size: 15px;
+     height: 50px;
+     margin-bottom: 32px;
+     margin-left: 36px;
+  }
+ 
+
+a{
+    min-width: 20px;
+}
+.hero, .container{
+    display: flex;
+    flex-direction: column;
+   min-width: 430px;
+}
+#banner{
+    min-width: 400px;
+     left: 3.5px;
+     margin-right:  100px;
+
+}
+.estatisticas, .name_card{
+    display: flex;
+    flex-direction: column;
+    min-width:430px ;
+ 
+
+}
+
+.estatisticas .container .card-estatisticas{
+>>>>>>> a49b9608896f29920e0eb78eb1f4c2f55c3ca0b2
     display: flex;
     flex-direction: column;
 
     background-color: var(--light);
     min-width: 430px;
     height: 450px;
+<<<<<<< HEAD
   }
 
   .estatisticas .container .card-estatisticas ul li {
+=======
+
+  
+  
+  }
+   
+  .estatisticas .container .card-estatisticas ul li{
+
+>>>>>>> a49b9608896f29920e0eb78eb1f4c2f55c3ca0b2
     color: var(--estatistic-size);
     display: flex;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
     font-size: 30px;
   }
   .estatisticas .container .card-estatisticas ul li span {
@@ -79,6 +157,22 @@
   }
   .nav ul li {
     font-size: 18px;
+=======
+    font-size:30px;
+  }
+  .estatisticas .container .card-estatisticas ul li span{
+    color: #DC2428;
+    line-height: 20.8px;
+  }
+  .info-services .container h2{
+    font-size:24px ;
+    line-height: 32px;
+   
+  }
+   .nav ul li {
+    font-size: 18px;
+  
+>>>>>>> a49b9608896f29920e0eb78eb1f4c2f55c3ca0b2
   }
   .header .logo {
     font-size: 18px;
@@ -87,5 +181,23 @@
   .header {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
   }
 } */
+=======
+   
+  }
+ 
+
+}
+
+   
+    
+  
+ 
+    
+      
+     
+     
+    
+>>>>>>> a49b9608896f29920e0eb78eb1f4c2f55c3ca0b2
