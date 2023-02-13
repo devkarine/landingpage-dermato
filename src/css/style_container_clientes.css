@@ -1,104 +1,93 @@
-.container_clientes_geral{
-    height: 650px;
-    background-color: #E4D0B4;;
+.comments .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.container_text_cliente{
-    color: #DC2428;
-    font-size: 36px;
-    line-height: 46.8px;
-    text-align: center;
-    padding-top: 80px;
-}
-.container_seta{
-    display: flex;
-}
-.seta_esquerda{
-    height:51px ;
-    width: 25px;
-    margin-top: 220px;
-    margin-left: 100px;
-    
 
+.comments .container h2 {
+  font-size: 3.6rem;
+  color: var(--title-button);
+  padding: 8rem 0 6rem 0;
+}
 
+.comments .container .wrapper-comments{
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
 
+.comments .container .wrapper-comments .card-comments{
+  display: flex;
+  align-items: center;
+  width: 45.1rem;
+  height: 25.42rem;
+  background-color: var(--bc-01);
+  border-radius: 0.8rem;
+  padding: 4rem;
+  gap: 2rem;
 }
-.container_cliente_one{
-    background-color: #F7F7F7;
-    display: flex;
-    margin-bottom: 40px;
-    height: 256px;
-    margin-left:21px;
-    width: 600px;
-    border-radius: 8px;
-    margin-left: 90px;
-    margin-top: 105px;
-    
+
+.comments .container .wrapper-comments .card-comments img{
+  width: 17.22rem;
+  height: 17.22rem;
 }
-.name{
-    font-size: 20px;
-    line-height: 26px;
-    margin-top: 51px;
-    width: 200px;
-    border-bottom: solid 2px #000;
-    margin-left: 21px;
+
+.comments .container .wrapper-comments .card-comments .info-comments{
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  
 }
-.descricao_cliente_one{
-    font-size: 18px ;
-    line-height: 24px;
-    color: #2E2E2E;
-    width: 250px;
-    margin-top: 17px;
-    margin-bottom: 15px;
-    margin-left: 21px;
-}
-.estrelas_cliente_one{
-    margin-top: 17px;
-    margin-left: 21px;
-}
-.cliente_one{
-    padding-left: 30px;
-    padding-right: 30px;
-   
-}
-.imagem_cliente_one{
-    margin-left: 21px;
-    margin-top: 21px;
-    margin-bottom:21px ;
+
+.comments .container .wrapper-comments .card-comments .info-comments h4{
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: 0.1rem solid;
 
 }
 
-.container_cliente_thow{
-    background-color: #F7F7F7;
-    display: flex;
-    margin-bottom: 40px;
-    height: 256px;
-    margin-left:21px;
-    width: 600px;
-    border-radius: 8px;
-    margin-left: 130px;
-    margin-top: 3px;
-}
-.cliente_thow{
-    padding-right: 30px;
-    padding-left: 30px;
-}
-.seta_direita{
-    height:51px ;
-    width: 25px;
-    margin-top: 110px;
-    margin-left: 95px;
-    
+.comments .container .wrapper-comments .card-comments .info-comments p{
+  width: 18.28rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  padding-top: 1.4rem;
+
 }
 
-.imagem_cliente_thow{
-    margin-left: 21px;
-    margin-top: 21px;
-    margin-bottom: 21px;
+
+
+.comments .container .wrapper-comments .card-comments .info-comments .stars{
+  display: flex;
+  padding-top: 1.3rem;
+  
 }
-.elipse{
-    display: flex;
-   margin-left: 720px;
+
+.comments .container .wrapper-comments .card-comments .info-comments .stars li img{
+  width: 2.8rem;
+  height: 2.4rem;
 }
-.elipese_1{
-    margin-right: 36px;
+
+.comments .container .elipse ul{
+  display: flex;
+  gap: 3.6rem;
+  padding: 4.4rem 0 12rem 0;
 }
+
+.comments .container .elipse ul li{
+  shape-outside: circle();
+  clip-path: circle();
+  background-color: var(--bc-01);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+.comments .container .elipse ul .selecionada{
+  background-color: var(--title-button);
+}
+

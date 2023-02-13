@@ -1,34 +1,30 @@
-.container_tratamentos{
+.container_tratamentos .container{
     display: flex;
-    height: 759px;
-  
-
+    gap: 10rem;
+    height: 75.8rem;
     background-color: #FCF8F5;;
 }
 .imagen_container_tratamentos{
-    margin-left: 160px;
-    margin-top: 128px;
-    margin-bottom: 80px;
-    box-shadow:20px 0px #FFCCD1;
+    width: 34rem;
+    height: 55rem;
+    box-shadow:48px -58px 0px #FFCCD1;
+    margin: 13rem 5rem 0 14rem;
 }
 .container_descricao{
-    width: 624px;
-    margin-left:180px;
-    margin-right: 358px;
-    margin-top: 105px;
-
-   
+    width: 62.4rem;
 }
-.title{
+.title-01{
     color: #DC2428;
-    font-size:36px ;
-    line-height: 46.8px;
-    margin-bottom: 38px;
+    width: 50.4rem;
+    font-size:36px;
+    margin: 10.5rem 0 3rem 0;
  
 }
 .descricao{
+    width: 624px;
     font-size: 20px;
     line-height: 26px;
+    padding-bottom: 20px;
 }
 .container_list_tratamentos{
     margin-top: 20px;
@@ -40,16 +36,4 @@
    
 
 }
-.button_container_tratementos{
-    height: 50px;
-    width: 214px;
-  background-color:  #DC2428;
-  color: #ffff;
-  margin-top: 26px;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  border-radius: 6px;
-  cursor: pointer;
- 
-  
-}
+

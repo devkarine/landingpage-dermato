@@ -1,76 +1,78 @@
-.container_rodape{
-    background-color:  #644B2C;
-    height: 480px;
+footer{
+  background-color: #644b2c;
+  padding-top: 8rem;
 }
-.text_title{
-    color: #FFFFFF;
   
-}
-.dermato{
-    font-size: 30px;
-    line-height:24px;
-}
-.contato , .informacao{
-    font-size: 23px;
-    line-height: 32px;
-
-
-}
-.container_text_rodape{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 80px;
-
-}
-.padrao{
-    font-Size:20px;
-Line-height:26px;
-color: #FFFFFF;
-}
-.numero{
-    margin-top: 32px;
-    margin-bottom: 12px;
-}
-.contato_email{
-    margin-bottom: 12px;
-    border-bottom: solid 0.5px #ffff;
-    padding-bottom: 10px;
   
+footer .container{
+  display: flex;
+  height: 35rem;
+  justify-content: space-evenly;
+  color: var(--light);
 }
-.rua{
-   
-    margin-bottom: 12px;
-} 
-.estado{
-    border-bottom: solid 0.5px #ffff;
-    padding-bottom: 10px;
 
-}  
-.informacao_text_descricao{
-    color: #FFFFFF;
-    font-size: 20px;
-    line-height: 26px ;
-}
-.one_text{
-    margin-top: 32px;
-    margin-bottom: 12px;
-}
-.thow_text{
-    margin-bottom: 12px;
+footer .container .logo{
+  display: flex;
+  font-size: 3.2rem;
 
 }
-.img_rede_sociais{
-    margin-top:16px ;
+
+footer .container address h3{
+  font-size: 2.4rem;
+  padding-bottom: 3.2rem;
 }
-.face{
-    margin-left: 32px;
-    margin-right: 32px;
+
+footer .container address .contatos li{
+  padding-bottom: 1.2rem;
+  font-size: 2rem;
+
 }
-.copy{
-    color: #FFFFFF;
-    margin-top: 70px;
-    font-size: 20px;
-    line-height:26px;
-    margin-left: 220px;
-    
+
+footer .container address .contatos li:nth-child(2){
+  border-bottom: 0.1rem solid var(--light);
 }
+
+footer .container address .contatos li:nth-child(4){
+  border-bottom: 0.1rem solid var(--light);
+}
+
+footer .container address .icons ul{
+  display: flex;
+  gap: 4.2rem;
+  padding-top: 1.6rem;
+}
+
+footer .container .informacoes h3{
+  font-size: 2.4rem;
+  padding-bottom: 3.2rem;
+}
+
+footer .container .informacoes ul li{
+  padding-bottom: 1.2rem;
+  font-size: 2rem;
+}
+
+footer .devs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--light);
+  padding-bottom: 2rem;
+  font-weight: 700;
+
+  font-size: 1.2rem;
+}
+
+footer .devs a{
+  color: var(--title-button);
+}
+
+footer .devs a:hover{
+  scale: 1.1;
+}
+
+
+
+
+

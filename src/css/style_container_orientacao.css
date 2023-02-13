@@ -1,85 +1,63 @@
-.container__geral_orientacao{
-    background: #fff;
-    height: 684px;
-    display: flex;
+.container__geral_orientacao .container {
+  background: #fff;
+  height: 68.2rem;
+  display: flex;
+  gap: 2rem;
+  padding: 10.3rem;
 }
-.container_orientacao{
-    margin-left: 160px;
-    margin-top: 105px;
 
+.container_como_se_preparar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 66.6rem;
+  height: 15.5rem;
+  border: solid 1px #b2b2b2;
+  margin-bottom: 2rem;
+  padding: 2rem;
 }
-.container_como_se_preparar{
- 
-    margin-bottom: 20px;
-    width: 600px;
-    border: solid 1px #B2B2B2;
-}
-.title_informativo{
-    font-size: 20px;
-    line-height: 26px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-margin-right: 20px;
-}
-.descricao_anotacao{
-color: #404040;
-font-size: 18px;
-line-height: 23.4px;
-margin-bottom: 20px;
-margin-left: 20px;
-margin-right: 20px;
-}
-.seta_acima{
-    margin-left: 530px;
-    margin-top: 20px;
 
+.container_como_se_preparar img{
+  transform: rotate(180deg);
 }
-.container_com_qual_frequencia{
-    padding-top: 10px;
-    padding-bottom:10px;
-    display: flex;
-    border: solid 1px #B2B2B2;
-    margin-bottom: 20px;
+
+.info-como-se-preparar{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
 }
-.container_preciso_encaminhamento{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    border: solid 1px #B2B2B2;
-    margin-bottom: 20px;
+
+
+.title_informativo {
+  font-size: 2rem;
+  width: 47.85rem;
+  padding-left: 3rem;
 }
-.container_oque_dermatologista{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    border: solid 1px #B2B2B2;
-    margin-bottom: 20px;
+.descricao_anotacao {
+  color: #404040;
+  font-size: 18px;
+  line-height: 23.4px;
+  margin: 2rem 0 3rem 3rem;
+  width: 54.8rem;
 }
-.container_analise_pele{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    border: solid 1px #B2B2B2;
-    margin-bottom: 20px;
+
+.questions{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 66.6rem;
+  height: 6.6rem;
+  padding: 2rem;
+  display: flex;
+  border: solid 1px #b2b2b2;
+  margin-bottom: 20px;
 }
-.imagem_seta_baixo{
-    width: 24px;
-    height: 15px;
-    margin-top: 10px;
-    margin-left: 27px;
-}
-.config_1{
-    margin-left: 70px;
-}
-.config_2{
-    margin-left: 26px;
-}
-.config_3{
-    margin-left: 60px;
-}
-.imagem_coco{
-    margin-left: 80px;
-    margin-top: 132px;
-    margin-bottom: 50px;
-    box-shadow:50px 0px #FFCCD1;
+
+.imagem_coco {
+  width: 37.1rem;
+  height: 47rem;
+  box-shadow:48px -58px 0px #FFCCD1;
+  margin: 13rem 19rem 8rem 8rem;
 }

@@ -1,72 +1,73 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 
+
+
 body {
   min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .container {
-  min-width: 1440px;
+
   margin: 0 auto;
   width: 100%;
 }
 
-.header{
-  max-width: 1440px;
+.header {
   width: 100%;
   font-size: 2.4rem;
   background-color: var(--bc-01);
   color: var(--bc5-e-nav-size);
   font-weight: 700;
   height: 8rem;
-  padding: 2rem;
+  padding: 2rem 11rem 2rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
-
-
-.header .nav ul{
+.header .nav ul {
   display: flex;
   gap: 3rem;
+  
 }
 
-.header .nav ul a:hover{
+.header .nav ul a{
+  transition: 0.3s ease-in-out;
+}
+
+.header .nav ul a:hover {
   color: var(--title-button);
 }
 
-.hero .container{
+.hero .container {
   display: flex;
-  
   align-items: center;
   padding-left: 14rem;
-
 }
 
-.hero{
+.hero {
   background-color: var(--bc-01);
-  
 }
 
-.hero .container .agendamento h1{
-  width: 517px;
+.hero .container .agendamento h1 {
+  width: 51.6rem;
   color: var(--title-button);
   font-size: 4.8rem;
   line-height: 6.24rem;
   padding-bottom: 2rem;
 }
 
-.hero .container .agendamento p{
-  width: 537px;
+.hero .container .agendamento p {
+  width: 53.7rem;
   color: var(--services-size);
   font-size: 2rem;
   line-height: 2.6rem;
   padding-bottom: 2rem;
 }
 
-
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,48 +78,46 @@ body {
   background-color: var(--title-button);
   color: var(--light);
   border-radius: 0.5rem;
+  transition: 0.3s ease-in-out;
 }
 
-.btn:hover{
+.btn:hover {
   color: var(--very-dark);
   background-color: var(--light);
+  cursor: pointer;
 }
 
-.hero .container .destaque-hero{
+.hero .container .destaque-hero {
   display: flex;
   justify-content: center;
   width: 50%;
 }
 
-.estatisticas .container{
+.estatisticas .container {
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(var(--bc-01) 50%, var(--bc-02) 50%);
 }
 
-.estatisticas .container .card-estatisticas{
+.estatisticas .container .card-estatisticas {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--light);
   width: 116.2rem;
   height: 20.6rem;
-
-
 }
 
-.estatisticas .container .card-estatisticas ul{
+.estatisticas .container .card-estatisticas ul {
   font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10rem;
-
 }
 
-.estatisticas .container .card-estatisticas ul li{
-  
+.estatisticas .container .card-estatisticas ul li {
   color: var(--estatistic-size);
   display: flex;
   align-items: center;
@@ -126,14 +125,12 @@ body {
   font-size: 5.2rem;
 }
 
-.estatisticas .container .card-estatisticas ul li span{
+.estatisticas .container .card-estatisticas ul li span {
   font-size: 2rem;
   color: var(--services-size);
 }
 
-
-
-.info-services .container{
+.info-services .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -143,13 +140,13 @@ body {
   padding-bottom: 10.7rem;
 }
 
-.info-services .container h2{
+.info-services .container h2 {
   font-size: 3.6rem;
   color: var(--title-button);
   padding: 8rem 0 6rem 0;
 }
 
-.info-services .container .services{
+.info-services .container .services {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,46 +154,46 @@ body {
   flex-wrap: wrap;
 }
 
-.info-services .container .services .card-services{
+.info-services .container .services .card-services {
   width: 34.7rem;
   height: 18rem;
   background-color: var(--light);
-  display: flex;
+  padding: 1rem;
+  
 }
-.info-services .container .services .title{
+
+.img-card {
+  float: left;
+  shape-outside: circle();
+  clip-path: circle();
+  background-color: var(--bc-circle);
+  width: 9rem;
+  height: 8.9rem;
+  margin: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--bc-circle);
-  width: 17rem;
-  height: 7rem;
-  border-radius: 50%;
-  margin: 2rem;
 }
 
-.info-services .container .services .title img{
-  width: 5rem;
-  
-}
-
-.info-services .container .services .description-services h3{
-  font-size: 2rem;
+.info-services .container .services .card-services .title h3 {
+  color: var(--very-dark);
   font-weight: 700;
-  padding: 2rem 6rem 1rem 0;
-  
+  font-size: 2rem;
 }
 
-.info-services .container .services .description-services .title-color{
+.info-services .container .services .card-services .title img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.info-services .container .services .title .title-color {
   color: var(--title-button);
 }
 
-.info-services .container .services .description-services p{
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 1.6rem;
+.info-services .container .services .card-services .title p {
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: var(--services-size);
-  padding: 1rem 2rem 1rem 0;
-
 }
 
 

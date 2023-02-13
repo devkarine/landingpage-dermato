@@ -1,0 +1,58 @@
+@media(max-width: 1075px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .hero .container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+    .estatisticas .container .card-estatisticas{
+        width: 80%;
+    }
+
+    .estatisticas .container .card-estatisticas ul li{
+        font-size: 4rem;
+    }
+
+    .container_tratamentos .container img{
+        display: none;
+    }
+
+    .container_descricao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .imagem_coco{
+        display: none;
+    }
+
+    .comments .container .wrapper-comments{
+        gap: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 768px){
+    .estatisticas .container .card-estatisticas{
+        height: 43.4rem;
+        width: 70%;
+    }
+
+    .estatisticas .container .card-estatisticas ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
