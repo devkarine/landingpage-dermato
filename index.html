@@ -4,8 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/menu.css">
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/style_container_tratamentos.css" />
     <link rel="stylesheet" href="src/css/style_container_orientacao.css" />
@@ -13,39 +21,31 @@
     <link rel="stylesheet" href="src/css/style_container_rodape.css" />
     <link rel="stylesheet" href="src/css/responsive.css" />
     <link rel="stylesheet" href="src/css/sessao_banner_responsivo.css" />
-    <script type="text/javascript">
-      window.onload = function () {
-        document
-          .querySelector(".menuMobile")
-          .addEventListener("click", function () {
-            if (
-              document.querySelector(".nav nav ul ").style.display == "flex"
-            ) {
-              document.querySelector(".nav nav ul  ").style.display == "none";
-            } else {
-              document.querySelector(".nav nav ul").style.display == "flex";
-            }
-          });
-      };
-    </script>
 
     <title>Landing Page Dermato</title>
   </head>
   <body>
-    <header class="header">
-      <div class="logo">
-        <h3>DERMATO</h3>
-      </div>
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <h2>DERMATO</h2>
+        </div>
 
-      <nav class="nav">
-        <ul>
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contatos">Contatos</a></li>
-        </ul>
-      </nav>
+        <nav class="nav">
+          <button id="btn-mobile">
+            <span id="hambuerguer"></span>
+          </button>
+
+          <ul id="menu">
+            <li><a href="#header" class="fechar-menu">Início</a></li>
+            <li><a href="#servicos" class="fechar-menu">Serviços</a></li>
+            <li><a href="#sobre" class="fechar-menu">Sobre</a></li>
+            <li><a href="#contacts" class="fechar-menu">Contatos</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    
     <main>
       <section class="hero">
         <div class="container">
@@ -347,50 +347,75 @@
       
     </main>
 
-    <footer>
-      <div class="container">
-        <div class="logo">
-          <h2>DERMATO</h2>
-        </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="logo">
+            <h2>DERMATO</h2>
+          </div>
+          
+          <address>
+            
+            <ul class="footer-list">
+              <li>
+                <a href="" class="footer-listlink">Phone: +1-543-123-4567</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">contato@dermato.com.br</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">Rua São Paulo, 45 - Americana</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">Americana - SP</a>
+              </li>
+            </ul>
+          </address>
 
-        <address>
-          <h3>Contatos</h3>
+          <nav>
+            <ul class="footer-list">
+              <li>
+                <a href="" class="footer-listlink">Procedimentos</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">Contato</a>
+              </li>
+              <li>
+                <a href="" class="footer-listlink">Termos e Condições</a>
+              </li>
+            </ul>
+          </nav>
 
-          <ul class="contatos">
-            <li>+55 21 9999-9999</li>
-            <li>contato@dermato.com.br</li>
-            <li>Rua São Paulo, 45 - Americana</li>
-            <li>Americana - SP</li>
-          </ul>
 
-          <div class="icons">
+          <div class="social">
             <ul>
-              <li><img src="src/images/instagram (1).png" alt=""></li>
-              <li><img src="src/images/facebook-circular-logo.png" alt=""></li>
-              <li><img src="src/images/youtube.png" alt=""></li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
             </ul>
           </div>
-
-        </address>
-
-        <div class="informacoes">
-          <h3>Informações</h3>
-          <ul>
-            <li>Procedimentos</li>
-            <li>Contato</li>
-            <li>Termos e Condições</li>
-          </ul>
-
         </div>
 
-        
-      </div>
-      <div class="devs">
-        <p>Challenge by</p><a href="https://chat.whatsapp.com/EKCvG6drxn7LlkYqoFh0IW">Desbravando a Programação</a>
-        <p>Code by</p><a href="https://github.com/devkarine">Karine Pereira</a> and <a href="https://github.com/BrunoFrontx">Bruno</a>
+        <hr class="footer-divider" />
+        <div class="footer-bottom">
+          <span class="copyright"
+            >&copy; 2023 Company. All rights reserved. Coded by
+            <a href="https://github.com/devkarine" target="_blank"
+              >Karine Pereira</a
+            >.
+          </span>
+        </div>
       </div>
     </footer>
 
     
+
+    <script src="src/js/script.js"></script>
   </body>
 </html>
