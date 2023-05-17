@@ -19,3 +19,12 @@ fecharMenu.forEach((element) => {
     nav.classList.toggle("active");
   });
 });
+
+
+const question = document.querySelectorAll(".questions");
+
+question.forEach((item) => {
+  item.addEventListener("click", function () {
+    item.classList.toggle("ativo");
+  });
+});

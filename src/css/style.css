@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 
-
-
 body {
   min-height: 100vh;
   margin: 0 auto;
 }
 
 .container {
-
   margin: 0 auto;
   width: 100%;
 }
@@ -131,7 +128,6 @@ body {
   height: 18rem;
   background-color: var(--light);
   padding: 1rem;
-  
 }
 
 .img-card {
@@ -168,6 +164,112 @@ body {
   color: var(--services-size);
 }
 
+.container_tratamentos .container {
+  display: flex;
+  gap: 10rem;
+  height: 75.8rem;
+  background-color: #fcf8f5;
+}
+.imagen_container_tratamentos {
+  width: 34rem;
+  height: 55rem;
+  box-shadow: 4.8rem -5.8rem 0rem #ffccd1;
+  margin: 13rem 5rem 0 14rem;
+}
+.container_descricao {
+  width: 62.4rem;
+}
+.title-01 {
+  color: #dc2428;
+  width: 50.4rem;
+  font-size: 3.6rem;
+  margin: 10.5rem 0 3rem 0;
+}
+.descricao {
+  width: 62.4rem;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  padding-bottom: 2rem;
+}
+.container_list_tratamentos {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.line_tratamentos {
+  font-size: 1.6rem;
+  line-height: 2.34rem;
+}
+
+.questions-answer .container{
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 0 0 5rem;
+}
+
+.questions-answer .wrapper-questions-answer{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 120rem;
+
+}
+
+.questions-answer .wrapper-questions-answer .questions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.1rem solid black;
+  height: auto;
+  width: 53rem;
+  padding: 2rem 1rem;
+  overflow: hiden;
+  
+    
+    
+
+  
+}
+
+.questions-answer .wrapper-questions-answer .questions .question{
+  font-size: 2rem;
+  width: 50rem;
+  cursor: pointer;
+  background-image: url(../images/seta-baixo.png);
+  background-repeat: no-repeat;
+  background-position: top 0.8rem right 0;
+  background-size: 1.5rem;
+  transition: 0.2s ease;
+  
+}
+
+.questions-answer .wrapper-questions-answer .questions .answer{
+  display: none;
+  font-size: 1.2rem;
+  width: 50rem;
+  
+  
+}
+
+.questions-answer .wrapper-questions-answer .questions.ativo .answer{
+  display: block;
+}
+
+.questions-answer .wrapper-questions-answer .questions .question.ativo{
+  background-image: url(../images/seta-cima.png);
+}
+
+
+
+.imagem_coco {
+  width: 37.1rem;
+  height: 47rem;
+  box-shadow: 4.8rem -5.8rem 0rem #ffccd1;
+  margin: 13rem 19rem 8rem 8rem;
+}
+
 .comments .container {
   display: flex;
   flex-direction: column;
@@ -181,13 +283,13 @@ body {
   padding: 8rem 0 6rem 0;
 }
 
-.comments .container .wrapper-comments{
+.comments .container .wrapper-comments {
   display: flex;
   align-items: center;
   gap: 6rem;
 }
 
-.comments .container .wrapper-comments .card-comments{
+.comments .container .wrapper-comments .card-comments {
   display: flex;
   align-items: center;
   width: 45.1rem;
@@ -198,53 +300,54 @@ body {
   gap: 2rem;
 }
 
-.comments .container .wrapper-comments .card-comments img{
+.comments .container .wrapper-comments .card-comments img {
   width: 17.22rem;
   height: 17.22rem;
 }
 
-.comments .container .wrapper-comments .card-comments .info-comments{
+.comments .container .wrapper-comments .card-comments .info-comments {
   display: flex;
   flex-direction: column;
   width: 14rem;
-  
 }
 
-.comments .container .wrapper-comments .card-comments .info-comments h4{
+.comments .container .wrapper-comments .card-comments .info-comments h4 {
   font-size: 1.6rem;
   font-weight: 700;
   border-bottom: 0.1rem solid;
-
 }
 
-.comments .container .wrapper-comments .card-comments .info-comments p{
+.comments .container .wrapper-comments .card-comments .info-comments p {
   width: 18.28rem;
   font-size: 1.8rem;
   line-height: 2.4rem;
   padding-top: 1.4rem;
-
 }
 
-
-
-.comments .container .wrapper-comments .card-comments .info-comments .stars{
+.comments .container .wrapper-comments .card-comments .info-comments .stars {
   display: flex;
   padding-top: 1.3rem;
-  
 }
 
-.comments .container .wrapper-comments .card-comments .info-comments .stars li img{
+.comments
+  .container
+  .wrapper-comments
+  .card-comments
+  .info-comments
+  .stars
+  li
+  img {
   width: 2.8rem;
   height: 2.4rem;
 }
 
-.comments .container .elipse ul{
+.comments .container .elipse ul {
   display: flex;
   gap: 3.6rem;
   padding: 4.4rem 0 12rem 0;
 }
 
-.comments .container .elipse ul li{
+.comments .container .elipse ul li {
   shape-outside: circle();
   clip-path: circle();
   background-color: var(--bc-01);
@@ -254,10 +357,9 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-
 }
 
-.comments .container .elipse ul .selecionada{
+.comments .container .elipse ul .selecionada {
   background-color: var(--title-button);
 }
 
@@ -296,7 +398,7 @@ body {
   transition: color 0.25s;
 }
 .footer-listlink:hover {
-  color:  #dc2428;
+  color: #dc2428;
   font-weight: 700;
 }
 
@@ -307,7 +409,7 @@ body {
 }
 
 .social ul li i:hover {
-  color:  #dc2428;
+  color: #dc2428;
   font-weight: 700;
 }
 
@@ -325,7 +427,6 @@ body {
 }
 
 .footer-bottom .copyright a:hover {
-  color:  #dc2428;
+  color: #dc2428;
   font-weight: 700;
 }
-

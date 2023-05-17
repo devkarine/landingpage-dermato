@@ -1,122 +1,120 @@
 header .container {
-    height: 8rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 3rem 4rem 0 4rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: transparent;
-    backdrop-filter: blur(50px);
-    z-index: 998;
-  }
-  
-  .logo h2 {
-    max-width: 100px;
-    font-size: 3rem;
-    color: #dc2428;
-    
-  }
-  
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 4rem 0 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+  z-index: 998;
+}
+
+.logo h2 {
+  max-width: 100px;
+  font-size: 3rem;
+  color: #dc2428;
+}
+
+header .container .nav #menu {
+  display: flex;
+  gap: 6rem;
+}
+
+header .container .nav #menu li a {
+  font-size: 2rem;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+header .container .nav #menu li a:hover {
+  color: red;
+}
+
+header .container .nav #btn-mobile {
+  display: none;
+}
+
+@media (max-width: 698px) {
   header .container .nav #menu {
-    display: flex;
-    gap: 6rem;
+    display: block;
+    position: absolute;
+    top: 8.5rem;
+    right: 2rem;
+    height: 0;
+    transition: 0.6s;
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
   }
-  
-  header .container .nav #menu li a {
-    font-size: 2rem;
-    color: black;
+
+  header .container .nav.active #menu {
+    height: 27rem;
+    visibility: visible;
+  }
+
+  header .container .nav #menu li {
+    display: flex;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    width: 200px;
+    background-color: #ffccd1;
+    backdrop-filter: blur(50px);
+    padding: 1.5rem;
+    justify-content: center;
+  }
+
+  header .container .nav #btn-mobile {
+    display: flex;
+    padding: 1.8rem 1rem;
+    background: none;
+    cursor: pointer;
+    background-color: #644b2c;
+    box-shadow: 0 0 5px #dc2428, 0 0 10px #dc2428, 0 0 20px #dc2428,
+      0 0 40px #dc2428;
+    border-radius: 0.5rem;
+  }
+
+  header .container .nav #btn-mobile #hambuerguer {
+    display: block;
+    color: #ffccd1;
+    border-top: 2px solid;
+    width: 2.5rem;
+    position: relative;
+  }
+
+  header .container .nav #btn-mobile #hambuerguer::after,
+  header .container .nav #btn-mobile #hambuerguer::before {
+    content: "";
+    display: block;
+    background: currentColor;
+    width: 100%;
+    height: 2px;
+    position: absolute;
     transition: 0.3s ease-in-out;
   }
-  
-  header .container .nav #menu li a:hover {
-    color: red;
+
+  header .container .nav #btn-mobile #hambuerguer::before {
+    top: -10px;
   }
-  
-  header .container .nav #btn-mobile {
-    display: none;
+
+  header .container .nav #btn-mobile #hambuerguer::after {
+    bottom: -10px;
   }
-  
-  @media (max-width: 698px) {
-    header .container .nav #menu {
-      display: block;
-      position: absolute;
-      top: 8.5rem;
-      right: 2rem;
-      height: 0;
-      transition: 0.6s;
-      z-index: 1000;
-      visibility: hidden;
-      overflow-y: hidden;
-    }
-  
-    header .container .nav.active #menu {
-      height: 27rem;
-      visibility: visible;
-    }
-  
-    header .container .nav #menu li {
-      display: flex;
-      border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-      width: 200px;
-      background-color: #ffccd1;
-      backdrop-filter: blur(50px);
-      padding: 1.5rem;
-      justify-content: center;
-    }
-  
-    header .container .nav #btn-mobile {
-      display: flex;
-      padding: 1.8rem 1rem;
-      background: none;
-      cursor: pointer;
-      background-color: #644b2c;
-      box-shadow: 0 0 5px #dc2428, 0 0 10px #dc2428,
-        0 0 20px #dc2428, 0 0 40px #dc2428;
-      border-radius: 0.5rem;
-    }
-  
-    header .container .nav #btn-mobile #hambuerguer {
-      display: block;
-      color: #ffccd1;
-      border-top: 2px solid;
-      width: 2.5rem;
-      position: relative;
-    }
-  
-    header .container .nav #btn-mobile #hambuerguer::after,
-    header .container .nav #btn-mobile #hambuerguer::before {
-      content: "";
-      display: block;
-      background: currentColor;
-      width: 100%;
-      height: 2px;
-      position: absolute;
-      transition: 0.3s ease-in-out;
-    }
-  
-    header .container .nav #btn-mobile #hambuerguer::before {
-      top: -10px;
-    }
-  
-    header .container .nav #btn-mobile #hambuerguer::after {
-      bottom: -10px;
-    }
-  
-    header .container .nav.active #btn-mobile #hambuerguer {
-      transform: rotate(45deg);
-    }
-  
-    header .container .nav.active #btn-mobile #hambuerguer::before {
-      transform: rotate(90deg);
-      top: 0;
-    }
-  
-    header .container .nav.active #btn-mobile #hambuerguer::after {
-      transform: rotate(90deg);
-      bottom: 0;
-    }
+
+  header .container .nav.active #btn-mobile #hambuerguer {
+    transform: rotate(45deg);
   }
-  
+
+  header .container .nav.active #btn-mobile #hambuerguer::before {
+    transform: rotate(90deg);
+    top: 0;
+  }
+
+  header .container .nav.active #btn-mobile #hambuerguer::after {
+    transform: rotate(90deg);
+    bottom: 0;
+  }
+}
