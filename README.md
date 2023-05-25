@@ -17,7 +17,7 @@ Projeto realizado em colaboração para que fosse feito treinamento de trabalho 
 ## 🖱️ A página
 <img src="src/images/designer-desktop-e-responsivo.gif" alt="Gif exibindo o desktop e versão mobile do site">   
 
-
+<a href="https://devkarine.github.io/landingpage-dermato/">Acesse a página online<a>
  ## ✨Inspiração
 
    <a href="https://www.figma.com/file/7XgNAeqaVzm8m6e51bWXMm/Dermato?node-id=58%3A2&t=yg2m7eFzjPStuSMn-0" alt="Projeto Figma">Figma: </a> <a href="https://www.linkedin.com/in/oliveirabrunati/">Criado pela Bruna Oliveira</a>

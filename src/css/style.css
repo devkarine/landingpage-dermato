@@ -226,11 +226,7 @@ body {
   width: 53rem;
   padding: 2rem 1rem;
   overflow: hiden;
-  
-    
-    
 
-  
 }
 
 .questions-answer .wrapper-questions-answer .questions .question{
@@ -257,8 +253,9 @@ body {
   display: block;
 }
 
-.questions-answer .wrapper-questions-answer .questions .question.ativo{
+.questions-answer .wrapper-questions-answer .questions.ativo .question{
   background-image: url(../images/seta-cima.png);
+  
 }
 
 
