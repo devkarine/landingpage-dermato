@@ -267,11 +267,91 @@ body {
   margin: 13rem 19rem 8rem 8rem;
 }
 
-.comments .container {
+#carousel-container {
+  width: 95%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  flex: 0 0 20rem;
+  margin: 0 10px;
+  background-color: var(--bc-01);
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card-1 img {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+}
+
+.card-1 .info-comments h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: 0.1rem solid;
+}
+
+.card-1 .info-comments p {
+  width: 18.28rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  padding-top: 1.4rem;
+}
+
+.card-1 .info-comments .stars {
+  display: flex;
+  padding-top: 1.3rem;
+}
+
+.card-1 .info-comments .stars li img {
+  width: 2.8rem;
+  height: 2.4rem;
+}
+
+
+
+.nav-left,
+.nav-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav-left {
+  left: 10px;
+}
+
+.nav-right {
+  right: 10px;
+}
+
+/* .comments .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80%;
+  overflow: hidden;
 }
 
 .comments .container h2 {
@@ -298,8 +378,9 @@ body {
 }
 
 .comments .container .wrapper-comments .card-comments img {
-  width: 17.22rem;
-  height: 17.22rem;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
 }
 
 .comments .container .wrapper-comments .card-comments .info-comments {
@@ -358,7 +439,7 @@ body {
 
 .comments .container .elipse ul .selecionada {
   background-color: var(--title-button);
-}
+} */
 
 .footer {
   padding-block: 5rem;
