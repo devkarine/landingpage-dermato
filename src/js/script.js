@@ -30,26 +30,30 @@ question.forEach((item) => {
 });
 
 
-var carousel = document.querySelector(".carousel");
-      var cardWidth = document.querySelector(".card").offsetWidth;
-      var offset = 0;
+var slideContainer = document.getElementById('slide-container');
+var slide = document.querySelector('.slide');
+var isMouseDown = false;
+var startX = 0;
+var scrollLeft = 0;
 
-      function moveLeft() {
-        offset += cardWidth + 20;
-        if (offset > 0) {
-          offset = 0;
-        }
-        carousel.style.transform = "translateX(" + offset + "px)";
-      }
+slideContainer.addEventListener('mousedown', function(e) {
+  isMouseDown = true;
+  startX = e.pageX;
+  scrollLeft = slideContainer.scrollLeft;
+});
 
-      function moveRight() {
-        offset -= cardWidth + 20;
-        var maxOffset = -(carousel.scrollWidth - carousel.offsetWidth - 20);
-        if (offset < maxOffset) {
-          offset = maxOffset;
-        }
-        carousel.style.transform = "translateX(" + offset + "px)";
-      }
+slideContainer.addEventListener('mousemove', function(e) {
+  if (!isMouseDown) return;
+  e.preventDefault();
+  var x = e.pageX;
+  var scrollDistance = x - startX;
+  slideContainer.scrollLeft = scrollLeft - scrollDistance;
+});
 
-      document.querySelector(".nav-left").addEventListener("click", moveLeft);
-      document.querySelector(".nav-right").addEventListener("click", moveRight);
+slideContainer.addEventListener('mouseup', function() {
+  isMouseDown = false;
+});
+
+slideContainer.addEventListener('mouseleave', function() {
+  isMouseDown = false;
+});
