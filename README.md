@@ -1,26 +1,36 @@
 # 🖥️ Projeto Landing Page Dermato
 
-## Descrição
-Projeto realizado em colaboração para que fosse feito treinamento de trabalho em equipe, git, github, gerenciamento de tempo e praticar as hardskills apresentadas abaixo.
+## 📜 Descrição
+Projeto realizado em colaboração com o objetivo de treinar o trabalho em equipe, git, github, gerenciamento de tempo e praticar as hardskills apresentadas abaixo.
 
 
 
-## ✍️ Processo
+## ✍️ Processos
 - Marcação semântica HTML5
 - Propriedades personalizadas de CSS3
 - Flexbox  
 - Design responsivo
 - JavaScript   
+
+
+ ### 🎮 Funcionalidades
+
+- Menu hamburguer quando a tela fica menor. 
+- Acordeon na parte de perguntas frequentes, onde o usuário clica na seta e abre a resposta a sua pergunta e     clicando novamente a resposta volta a se enconder.
+- Slide na parte de comentários, onde o usuário pode clicar na imagem e arrastar para ver mais comentários.
     
 
 
 ## 🖱️ A página
 <img src="src/images/designer-desktop-e-responsivo.gif" alt="Gif exibindo o desktop e versão mobile do site">   
 
-<a href="https://devkarine.github.io/landingpage-dermato/">Acesse a página online<a>
- ## ✨Inspiração
+<a href="https://devkarine.github.io/landingpage-dermato/">Acesse aqui a página online</a>   
+  
 
-   <a href="https://www.figma.com/file/7XgNAeqaVzm8m6e51bWXMm/Dermato?node-id=58%3A2&t=yg2m7eFzjPStuSMn-0" alt="Projeto Figma">Figma: </a> <a href="https://www.linkedin.com/in/oliveirabrunati/">Criado pela Bruna Oliveira</a>
+
+## ✨ Inspiração
+
+  Figma: <a href="https://www.figma.com/file/7XgNAeqaVzm8m6e51bWXMm/Dermato?node-id=58%3A2&t=yg2m7eFzjPStuSMn-0"> Acesse aqui o layout criado pela Bruna Oliveira.</a>
 
 ## 👩‍💻 Devs
 <table align="center">

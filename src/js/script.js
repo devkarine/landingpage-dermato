@@ -20,29 +20,27 @@ fecharMenu.forEach((element) => {
   });
 });
 
-
 const question = document.querySelectorAll(".questions");
 
 question.forEach((item) => {
-  item.addEventListener("click", function () {
+  item.addEventListener("click", () => {
     item.classList.toggle("ativo");
   });
 });
 
-
-var slideContainer = document.getElementById('slide-container');
-var slide = document.querySelector('.slide');
+var slideContainer = document.getElementById("slide-container");
+var slide = document.querySelector(".slide");
 var isMouseDown = false;
 var startX = 0;
 var scrollLeft = 0;
 
-slideContainer.addEventListener('mousedown', function(e) {
+slideContainer.addEventListener("mousedown", (e) => {
   isMouseDown = true;
   startX = e.pageX;
   scrollLeft = slideContainer.scrollLeft;
 });
 
-slideContainer.addEventListener('mousemove', function(e) {
+slideContainer.addEventListener("mousemove", (e) => {
   if (!isMouseDown) return;
   e.preventDefault();
   var x = e.pageX;
@@ -50,10 +48,10 @@ slideContainer.addEventListener('mousemove', function(e) {
   slideContainer.scrollLeft = scrollLeft - scrollDistance;
 });
 
-slideContainer.addEventListener('mouseup', function() {
+slideContainer.addEventListener("mouseup", () => {
   isMouseDown = false;
 });
 
-slideContainer.addEventListener('mouseleave', function() {
+slideContainer.addEventListener("mouseleave", () => {
   isMouseDown = false;
 });
